@@ -2,4 +2,4 @@
 
 №|Name|Description
 ---|:---|:---
-1.|[Numpy 100](https://github.com/victoriassazonova/proga_2018/tree/master/hw1)|Numpy exercises for practice
+1.|[Numpy 100](https://github.com/victoriassazonova/projects_2022/blob/main/100_Numpy_exercises_2022.ipynb)|Numpy exercises for practice

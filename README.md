@@ -10,3 +10,5 @@ some text
 4.|[Algorithms](https://github.com/victoriassazonova/projects_2022/tree/main/algorithms)| Algorithms implemented from scratch with Go for learning purposes
 5.|[ML training app](https://github.com/victoriassazonova/projects_2022/tree/main/database)|Prototype of a ML service for model training with Flask and SQLAlchemy
 6.|[Search engine](https://github.com/victoriassazonova/projects_2022/tree/main/search%20engine%20project)|Search engine with Flask, front with html, css and java script
+7.|[Topic modeling](https://github.com/victoriassazonova/projects_2022/blob/main/topic_modeling.ipynb)|Topic modeling with LDA of H.Clinton's mails
+8.|[Word2vec with Torch](https://github.com/victoriassazonova/projects_2022/blob/main/word2vec_nn.ipynb)|Training CBOW and Skipgram w2v with torch

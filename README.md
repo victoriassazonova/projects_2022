@@ -9,3 +9,4 @@ some text
 3.|[Chat bot](https://github.com/victoriassazonova/projects_2022/tree/main/test_task-master)|Chat bot that reacts with different emotions based on user-imputed emojies and writes everything to a MySQL db
 4.|[Algorithms](https://github.com/victoriassazonova/projects_2022/tree/main/algorithms)| Algorithms implemented from scratch with Go for learning purposes
 5.|[ML training app](https://github.com/victoriassazonova/projects_2022/tree/main/database)|Prototype of a ML service for model training with Flask and SQLAlchemy
+6.|[Search engine](https://github.com/victoriassazonova/projects_2022/tree/main/search%20engine%20project)|Search engine with Flask, front with html, css and java script

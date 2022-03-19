@@ -1,0 +1,73 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    .body{
+    background-color: #bbbbbb; /* Цвет фона веб-страницы */
+   } 
+    .mb20 {
+    font: 12pt sans-serif;
+
+
+   }
+
+   .g{
+   min-height: 100vh;
+   background: url("../static/images/iStock_masks_illustration_01.jpg") no-repeat 0, 0;
+   background-size: cover;
+
+   }
+
+.j{
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+   </style>
+ <div class="g">
+    <div class="j">
+	<ul>
+		{% for name, url in urls.items() %}
+		<a href="{{ url }}">{{ name }}</a>
+		{% endfor %}
+	</ul>
+
+    <hgroup class="mb20">
+   
+		<h2>Метод {{model}}</h2>
+		<h2 class="lead"><strong class="text-info">Результаты</strong> по вопросу <strong class="text-info">{{query}}</strong></h2>
+	</hgroup>
+		{% for o in result_s %}
+        <section content="width=device-width>
+		<article class="search-result row">
+		<div class="col-xs-12 col-sm-30 col-md-7 excerpet">
+		<strong class="text-info">{{o[0]}}</strong><p style="height:70px;font: 12pt sans-serif; background-color: rgba(223, 236, 235, 0.8);border:1px solid #ccc; overflow:auto;">{{o[1]}}</p></div>
+			<span class="clearfix borda"></span>
+		</article>
+        {% endfor %}
+	</section>
+	</div>
+</div>
+</body>>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  
